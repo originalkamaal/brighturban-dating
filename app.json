@@ -2,6 +2,7 @@
   "expo": {
     "name": "brighturban",
     "slug": "brighturban",
+    "owner": "originalkamaal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.originalkamaal.brighturban"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3edf6b2-4cff-4ed5-b526-3bcda718a513"
+      }
     }
   }
 }
